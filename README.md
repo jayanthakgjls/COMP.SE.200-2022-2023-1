@@ -1,4 +1,8 @@
+# Coverage Status
+[![Coverage Status](https://coveralls.io/repos/github/jayanthakgjls/COMP.SE.200-2022-2023-1/badge.svg)](https://coveralls.io/github/jayanthakgjls/COMP.SE.200-2022-2023-1)
+
 # Student template
+
 
 ## Purpose of this repository
 
