@@ -9,6 +9,9 @@
   },
   "author": "",
   "license": "MIT",
+  "bin": {
+    "coveralls": "./bin/coveralls.js"
+  },
   "devDependencies": {
     "@babel/core": "^7.20.5",
     "@babel/preset-env": "^7.20.2",
