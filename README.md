@@ -2,6 +2,9 @@
 [![Coverage Status](https://coveralls.io/repos/github/jayanthakgjls/COMP.SE.200-2022-2023-1/badge.svg?branch=main)](https://coveralls.io/github/jayanthakgjls/COMP.SE.200-2022-2023-1?branch=main)
 # Student template
 
+# Local dev instructions
+1. npm install 
+2. npm test
 
 ## Purpose of this repository
 
