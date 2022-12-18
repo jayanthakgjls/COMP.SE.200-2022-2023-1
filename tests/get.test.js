@@ -4,13 +4,18 @@ test('get should exist', () => {
   expect(get).toBeDefined();
 });
 
-// check user role
-test('get should fetch data', () => {
-    const user = { 'id': 1, 'name': 'Testi 1', 'role': 'producer'};
-    expect(get(user, 'role')).toBe('producer');
-});
-
-test('get should fetch data', () => {
-    const user = { 'id': 2, 'name': 'Testi 2', 'role': 'user'};
-    expect(get(user, 'role')).not.toBe('producer');
+let users = [];
+describe("users array", () => {
+    beforeEach(() => {
+        users = [
+            { 'id': 1, 'name': 'Testi 1', 'role': 'producer'},
+            { 'id': 2, 'name': 'Testi 2', 'role': 'user'}
+        ];
+    });
+    it('should get user by role', () => {
+        expect(get(users[0], 'role')).toBe('producer');
+    });
+    it('should get user by role', () => {
+        expect(get(users[1], 'role')).not.toBe('producer');
+    });
 });
